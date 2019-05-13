@@ -1,0 +1,8 @@
+.jumbotron {
+    background: url('../assets/jumbotronBG.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:white;
+    text-align:center;
+    height:600px;
+}
