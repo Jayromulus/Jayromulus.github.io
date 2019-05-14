@@ -1,5 +1,5 @@
 :root {
-    --green: #cdeeaa;
+    /* --green: #cdeeaa;
     --pink:#ffcccc;
     --lightpurple:#caabd8;
     --blue:#6d70c6;
@@ -9,7 +9,10 @@
     --lightblue:#96dae4;
     --tan:#ffedc6;
     --darkpink:#ff6bd6;
-    --orange:#f05a28;
+    --orange:#f05a28; */
+
+    --blue:#302387;
+    --pink:#ff3796;
 
     --font1: 'Quicksand', sans-serif;
 }
