@@ -2,7 +2,7 @@
     height:20vw;
     width:30vw;
     background-color:#801000;
-    margin:3em;
+    margin:2.5em;
     /* display:inline-block; */
     text-align:center;
     border-radius:10px;
@@ -18,11 +18,39 @@
     white-space: nowrap;
     margin-right:1em;
     margin-left:1em;
-} */
-
-/* .projects {
+} 
+.projects {
     background-color: var(--footer);
 } */
+
+#staticBG {
+    background-image: url('../assets/staticBG.PNG');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+#apiBG {
+    background-image: url('');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#cssCreatureBG {
+    background-image: url('../assets/creatureBG.PNG');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#redBadgeBG {
+    background-image: url('');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#blueBadgeBG {
+    background-image: url('');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+
 
 /* Width */
 ::-webkit-scrollbar {
@@ -47,4 +75,5 @@
 
 .projectFont {
     font-size:4.5em;
+    text-shadow:0px 0px 5px black;
 }

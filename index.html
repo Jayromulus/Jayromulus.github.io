@@ -75,28 +75,37 @@
         <div class="col" id="projStyle">Projects</div>
     </div>
     <div class="row" style="margin-right:0px;" id="projects">
-        <span class="col" style="text-align:center; margin-bottom:1em">
+        <div class="col" style="text-align:center; margin-bottom:1em">
             <div class="row">
-                <div class="col projects">
-                    <p class="projectFont" id="staticBG">Static Page</p>
+                <div class="col-2"></div>
+                <div class="col projects" id="staticBG">
+                    <p class="projectFont"><a href="https://jayromulus.github.io/staticLayout/" target="_blank">Static Page</a></p>
                 </div>
-                <div class="col projects">
-                    <p class="projectFont" id="apiBG">API Project</p>
-                </div>
-                <div class="col projects">
-                    <p class="projectFont" id="cssCreatureBG">CSS Creature</p>
-                </div>
+                
+                <!-- <div class="col-2"></div>
             </div>
             <div class="row">
-                <div class="col projects">
-                    <p class="projectFont" id="redBadgeBG">Red Badge TBA</p>
+                <div class="col-2"></div> -->
+                <div class="col projects" id="apiBG">
+                    <p class="projectFont">API Project</p>
                 </div>
-                <div class="col projects">
-                    <p class="projectFont" id="blueBadgeBG">Blue Badge TBA</p>
-                </div>
+                <div class="col-2"></div>
             </div>
-        </span>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col projects" id="redBadgeBG">
+                    <p class="projectFont">Red Badge TBA</p>
+                </div>
+                <div class="col projects" id="cssCreatureBG">
+                    <p class="projectFont"><a href="https://codepen.io/Jayromulus/full/QRwdwW" target="_blank">CSS Creature</a></p>
+                </div>
+                <div class="col projects" id="blueBadgeBG">
+                    <p class="projectFont">Blue Badge TBA</p>
+                </div>
+                <div class="col-2"></div>
+            </div>
         </div>
+    </div>
 
     <!-- about me and email section -->
 
@@ -107,7 +116,7 @@
             <div class="container">
                 <h2 class="text-center text-uppercase">Contact Me</h2>
                 <div class="row">
-                    <form action="https://formspree.io/ejaeger9784@gmail.com" method="POST" class="col">
+                    <form action="https://formspree.io/jayromulus.f@gmail.com" method="POST" class="col">
                         <!-- change "YOUR EMAIL HERE you your email for the proper addressing-->
                         <div class="control-group">
                             <div class="form-group">
@@ -132,9 +141,10 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                        <div class="text-center">
+                        <div>
+                            <!--class="text-center"-->
                             <div id="success"></div>
-                            <button type="submit" class="btn btn-lg btn-black">
+                            <button type="submit" class="btn btn-lg btn-danger" id="subBtn">
                                 <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
                                 Send Message
                             </button>

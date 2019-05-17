@@ -8,3 +8,11 @@ body {
     font-family: alethi;
     src: url('../assets/AlethiTS_lined.ttf')
 }
+a {
+    text-decoration:none;
+    color:white;
+}
+a:hover {
+    text-decoration:none;
+    color:rgb(148, 148, 148);
+}
