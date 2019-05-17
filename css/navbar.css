@@ -1,6 +1,27 @@
-#nav-content {
+/* #nav-content {
     margin-left:67%;
-}
-#nav-bg {
+} */
+/* #nav-bg {
     background-color: var(--blue);
+} */
+
+#navColors {
+    /* color:white; */
+    background-color:var(--bgColor);
+}
+.nav-link {
+    color:white;
+}
+.nav-link:hover {
+    color:white;
+}
+nav a {
+    color:white;
+}
+nav a:hover {
+    text-decoration:none;
+    color:white;
+}
+.buttonStyle {
+    color:white;
 }

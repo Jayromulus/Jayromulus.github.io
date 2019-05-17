@@ -1,0 +1,50 @@
+.projects {
+    height:20vw;
+    width:30vw;
+    background-color:#801000;
+    margin:3em;
+    /* display:inline-block; */
+    text-align:center;
+    border-radius:10px;
+    /* font-family:alethi */
+}
+#projStyle {
+    font-size:4em;
+    text-align:center;
+}
+/* 
+#projectBar {
+    overflow: auto;
+    white-space: nowrap;
+    margin-right:1em;
+    margin-left:1em;
+} */
+
+/* .projects {
+    background-color: var(--footer);
+} */
+
+/* Width */
+::-webkit-scrollbar {
+    width:5px
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background:rgba(221, 221, 221, 0);
+    border-radius:15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background:rgba(175, 175, 175, 0.5);
+    border-radius:15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:rgba(128, 128, 128, 0.746);
+}
+
+.projectFont {
+    font-size:4.5em;
+}

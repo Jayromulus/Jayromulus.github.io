@@ -1,8 +1,19 @@
 .jumbotron {
-    background: url('../assets/jumbotronBG.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
+    /* The image used */
+    background-image: url("../assets/paralaxbg.gif");
+    /* https://vignette.wikia.nocookie.net/snk/images/f/fb/Lb2villageoftwilightbg.gif/revision/latest?cb=20100720045022 background image link */
+    height:95vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#jumboContent {
+    vertical-align: middle;
+}
+.jumboText {
+    text-shadow: 0px 0px 5px black;
     color:white;
-    text-align:center;
-    height:600px;
+    /* font-family:alethi; */
 }

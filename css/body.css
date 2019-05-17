@@ -1,4 +1,10 @@
 body {
-    background-color: var(--pink);
+    background-color:var(--bgColor);
     font-family: var(--font1);
+    color:white;
+}
+
+@font-face {
+    font-family: alethi;
+    src: url('../assets/AlethiTS_lined.ttf')
 }

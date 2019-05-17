@@ -14,9 +14,11 @@
     <title>Jerome's Portfolio</title>
 </head>
 
+<!-- IMPORT ALETHI AND NAZCAAN FONT USING @font {font-family:alethi/nazcaan; src: url(url to file)} -->
+
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light" id="nav-bg">
+    <nav class="navbar navbar-expand-lg" id="navColors">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,27 +31,29 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#projStyle">Projects</a>
                 </li>
-                <li class="nav-item dropdown">
+                <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
+                        Projects
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">CSS Creature</a>
+                        <a class="dropdown-item" href="#">Static Page</a>
+                        <a class="dropdown-item" href="#">API Project</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Red Badge TBA</a>
+                        <a class="dropdown-item" href="#">Blue Badge TBA</a>
                     </div>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <button class="btn btn-outline-secondary my-2 my-sm-0 buttonStyle" type="submit">Search</button>
             </form>
         </div>
     </nav>
@@ -59,58 +63,91 @@
         <!-- Jumbotron -->
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <h1 class="display-4">Fluid jumbotron</h1>
-                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                <h1 class="display-4 jumboText" id="jumboContent">Jerome Flaherty</h1>
+                <p class="lead jumboText">This is a modified jumbotron that occupies the entire horizontal space of its
+                    parent.</p>
             </div>
         </div>
     </section>
 
-
-    <!-- about me section -->
-
-    <!-- contact me -->
-    <section id="contact">
-        <div class="container">
-            <h2 class="text-center text-uppercase">Contact Me</h2>
+    <!-- projects -->
+    <div class="row" style="margin-right:0px">
+        <div class="col" id="projStyle">Projects</div>
+    </div>
+    <div class="row" style="margin-right:0px;" id="projects">
+        <span class="col" style="text-align:center; margin-bottom:1em">
             <div class="row">
-                <form action="https://formspree.io/YOUR EMAIL HERE" method="POST"> <!-- change "YOUR EMAIL HERE you your email for the proper addressing-->
-                    <div class="control-group">
-                        <div class="form-group">
-                            <label>Name</label>
-                            <input type="text" class="form-control" placeholder="Your Name" id="name" required
-                                data-validation-required-message="Please enter your name" name="name">
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <div class="form-group">
-                            <label>Email Address</label>
-                            <input type="email" class="form-control" placeholder="Your Email" id="email" required
-                                data-validation-required-message="Please enter your email" name="_replyto">
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <div class="form-group">
-                            <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
-                                data-validation-required-message="Please leave a message" name="message"></textarea>
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <div class="text-center">
-                        <div id="success"></div>
-                        <button type="submit" class="btn btn-lg btn-black">
-                            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                            Send Message
-                        </button>
-                    </div>
-                </form>
+                <div class="col projects">
+                    <p class="projectFont" id="staticBG">Static Page</p>
+                </div>
+                <div class="col projects">
+                    <p class="projectFont" id="apiBG">API Project</p>
+                </div>
+                <div class="col projects">
+                    <p class="projectFont" id="cssCreatureBG">CSS Creature</p>
+                </div>
             </div>
+            <div class="row">
+                <div class="col projects">
+                    <p class="projectFont" id="redBadgeBG">Red Badge TBA</p>
+                </div>
+                <div class="col projects">
+                    <p class="projectFont" id="blueBadgeBG">Blue Badge TBA</p>
+                </div>
+            </div>
+        </span>
         </div>
-    </section>
+
+    <!-- about me and email section -->
+
+    <div>
+        <!-- Email Form -->
+        <!-- contact me -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="text-center text-uppercase">Contact Me</h2>
+                <div class="row">
+                    <form action="https://formspree.io/ejaeger9784@gmail.com" method="POST" class="col">
+                        <!-- change "YOUR EMAIL HERE you your email for the proper addressing-->
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                                    data-validation-required-message="Please enter your name" name="name">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                                    data-validation-required-message="Please enter your email" name="_replyto">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                                    data-validation-required-message="Please leave a message" name="message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-lg btn-black">
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <!-- footer -->
-    <footer></footer>
+    <footer class="col">&copy;Jerome Flaherty 2019 | Portfolio Page | ElevenFifty Academy</footer>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
