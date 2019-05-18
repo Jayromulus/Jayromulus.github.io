@@ -1,9 +1,9 @@
 .projects {
-    height:20vw;
-    width:30vw;
+    height:20em;
+    width:30em;
     background-color:#801000;
     margin:2.5em;
-    /* display:inline-block; */
+    display:inline-block;
     text-align:center;
     border-radius:10px;
     /* font-family:alethi */
@@ -12,16 +12,13 @@
     font-size:4em;
     text-align:center;
 }
-/* 
+
 #projectBar {
     overflow: auto;
     white-space: nowrap;
     margin-right:1em;
     margin-left:1em;
-} 
-.projects {
-    background-color: var(--footer);
-} */
+}
 
 #staticBG {
     background-image: url('../assets/staticBG.PNG');
@@ -74,6 +71,7 @@
 }
 
 .projectFont {
-    font-size:4.5em;
+    font-size:3.5em;
+    padding-top:50%;
     text-shadow:0px 0px 5px black;
 }
