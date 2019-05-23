@@ -89,56 +89,71 @@
     </div>
 
     <!-- about me and email section -->
+    <div class="row" style="margin-right:0px;">
+        <div class="col"></div>
+        <button class="btn btn-danger col-6" type="button" data-toggle="collapse" data-target="#collapseExample"
+            aria-expanded="false" aria-controls="collapseExample" id='contactButton'>
+            Contact Me!
+        </button>
+        <div class="col"></div>
+    </div>
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body">
 
-    <div>
-        <!-- Email Form -->
-        <!-- contact me -->
-        <section id="contact">
-            <div class="container">
-                <h2 class="text-center text-uppercase">Contact Me</h2>
-                <div class="row">
-                    <form action="https://formspree.io/jayromulus.f@gmail.com" method="POST" class="col">
-                        <!-- change "YOUR EMAIL HERE you your email for the proper addressing-->
-                        <div class="control-group">
-                            <div class="form-group">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Your Name" id="name" required
-                                    data-validation-required-message="Please enter your name" name="name">
-                                <p class="help-block text-danger"></p>
-                            </div>
+            <div>
+                <!-- Email Form -->
+                <!-- contact me -->
+                <section id="contact">
+                    <div class="container">
+                        <h2 class="text-center text-uppercase">Contact Me</h2>
+                        <div class="row">
+                            <form action="https://formspree.io/jayromulus.f@gmail.com" method="POST" class="col">
+                                <!-- change "YOUR EMAIL HERE you your email for the proper addressing-->
+                                <div class="control-group">
+                                    <div class="form-group">
+                                        <label>Name</label>
+                                        <input type="text" class="form-control" placeholder="Your Name" id="name"
+                                            required data-validation-required-message="Please enter your name"
+                                            name="name">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="form-group">
+                                        <label>Email Address</label>
+                                        <input type="email" class="form-control" placeholder="Your Email" id="email"
+                                            required data-validation-required-message="Please enter your email"
+                                            name="_replyto">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="form-group">
+                                        <textarea class="form-control" rows="7" placeholder="Your Message" id="message"
+                                            required data-validation-required-message="Please leave a message"
+                                            name="message"></textarea>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <!--class="text-center"-->
+                                    <div id="success"></div>
+                                    <button type="submit" class="btn btn-lg btn-danger" id="subBtn">
+                                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                        Send Message
+                                    </button>
+                                </div>
+                            </form>
                         </div>
-                        <div class="control-group">
-                            <div class="form-group">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Your Email" id="email" required
-                                    data-validation-required-message="Please enter your email" name="_replyto">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group">
-                                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
-                                    data-validation-required-message="Please leave a message" name="message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div>
-                            <!--class="text-center"-->
-                            <div id="success"></div>
-                            <button type="submit" class="btn btn-lg btn-danger" id="subBtn">
-                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                                Send Message
-                            </button>
-                        </div>
-                    </form>
-                </div>
+                    </div>
+                </section>
             </div>
-        </section>
+        </div>
     </div>
 
     <!-- footer -->
-    <footer class="col">&copy;Jerome Flaherty 2019 | ElevenFifty Academy | <span class="fa fa-github"></span> | <span
-            class="fa fa-linkedin-square"></span></footer>
+    <footer class="col">&copy;Jerome Flaherty 2019 | ElevenFifty Academy | <span class="fa fa-github"></span> |
+        <span class="fa fa-linkedin-square"></span></footer>
 
 
     <!-- Optional JavaScript -->

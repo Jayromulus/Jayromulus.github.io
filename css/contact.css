@@ -1,7 +1,15 @@
 #contact {
     margin-bottom:15vh;
-    margin-top: 15vh;
+    margin-top: 5vh;
 }
 #subBtn {
     float:right;
+}
+.card-body { 
+    background-color: var(--bgColor)
+}
+#contactButton {
+    margin-top:18vh;
+    font-size:2em;
+    margin-bottom:10vh;
 }
