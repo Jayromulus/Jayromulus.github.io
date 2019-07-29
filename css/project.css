@@ -42,7 +42,7 @@
     background-repeat:no-repeat;
 }
 #blueBadgeBG {
-    background-image: url('');
+    background-image: url('../assets/bluebadge.PNG');
     background-size:cover;
     background-repeat:no-repeat;
 }
